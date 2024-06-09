@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram login</title>
+    <link rel="icon" href="instagramFavicon.png">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" media="screen and (max-width:395px)" href="phone.css">
+</head>
+<body>
+    <div class="nav">
+        <select name="Dropdowns" id="demo">English
+            <option value="English(UK)">English(UK)</option>
+        <option value="English">English</option>
+        <option value="Polski">Polski</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Urdu">Urdu</option>
+    </select>
+    </div>
+    <div class="logo">
+ <img src="instalogo.png" alt="INstagram Logo">
+    </div>
+    <div class="form">
+        <div class="form_container">
+          <div class="loginwithfacebook">
+            <p> <a href="https://www.facebook.com/"><img src="facebooklogo.png" alt="facebooklogo" style="height: 40px; mix-blend-mode:lighten; padding-right: 5px;"></a>Log In with FaceBook</p>
+          </div>
+          <div class="or">
+            <p id="Ortext">----------OR---------- </p>
+          </div>
+          <div class="input" id="username">
+            <input type="text"  id="username1" placeholder="" required>
+            <p id="usernamefloat">Phone no,Username or Email</p>
+          </div>
+          <div class="input" id="password">
+            <input type="password" id="Password1" placeholder="" required>
+            <p id="passfloat">Password</p>
+          </div>
+          <div class="buttondiv">
+            <button type="submit" id="buttonlogin" onclick="printtext()">Log In</button>
+          </div>
+          <div class="text">
+            <h3>Forgot password?</h3>
+            <h4>Don't Have Account ?<a href="" style="color:rgb(0,149,246); font-weight: bold; text-decoration: none;">sign up</a></h4>
+          </div>
+    </div>
+    </div>
+    <div class="footerimg">
+        <h3>Get App</h3>
+        <div class="images">
+            <img src="googleplay.png" alt="play">
+            <img src="microsoftstoreimg.png" alt="micro">
+        </div>
+       
+    </div>
+    <footer class="footercontainer">
+        <div class="hello">
+      <a href="">Meta</a>
+        <a href="">About</a>
+        <a href="">Blog</a>
+        <a href="">Jobs</a>
+        <a href="">API</a>
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Location</a>
+        <a href="">Instagram lite</a>
+        <a href="">Thread</a>
+        <a href="">About us</a>
+        <a href="">Contact</a>
+        <a href="">Help</a>
+        <a href="">Services</a>
+    </div>
+      <div class="texten">
+        <h2>English ©@024 Instagram from Meta</h2>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
