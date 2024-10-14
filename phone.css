@@ -61,3 +61,36 @@ p{
     font-weight: 500;
     color: rgb(255, 255, 255)
 }
+
+@media (max-width:580px){
+
+    .form_container{
+        padding: 0;
+        width: 45vh;
+        border-radius: 16px;
+        padding-bottom: 20px;
+    }
+   
+    .input input{
+        width: 250px;
+        height: 55px;
+    }
+   #usernamefloat{
+    font-size: 12px;
+   }
+   #passfloat{
+    font-size: 12px;
+   }
+    .buttondiv button{
+        width: 300px;
+    }
+    .hello{
+      padding: 0;
+      display: none;
+     
+    }
+    .texten h2{
+       align-items: center;
+       text-align: center;
+    }
+}
